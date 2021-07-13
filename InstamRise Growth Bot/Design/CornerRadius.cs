@@ -1,27 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace InstamRise_Growth_Bot.Design
 {
-    class BorderRadius : Component
+    class CornerRadius: Component 
     {
         [System.Runtime.InteropServices.DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         public static extern IntPtr CreateRoundRectRgn
-              (
-                 int nLeftRect,
-                 int nTopRect,
-                 int nRightRect,
-                 int nBottomRect,
-                 int nWidthEllipse,
-                 int nHeightEllipse
-              );
-        public BorderRadius(Control component, int radius)
+           (
+              int nLeftRect,
+              int nTopRect,
+              int nRightRect,
+              int nBottomRect,
+              int nWidthEllipse,
+              int nHeightEllipse
+           );
+        public CornerRadius(Control component, int radius)
         {
             if (component.GetType().Name == "Button")
             {
@@ -30,15 +26,15 @@ namespace InstamRise_Growth_Bot.Design
                 btn.FlatAppearance.BorderSize = 0;
                 btn.FlatAppearance.BorderColor = System.Drawing.Color.White;
             }
-            else if (component.GetType().Name =="TextBox" )
+            else if (component.GetType().Name == "TextBox")
             {
                 TextBox txt = (TextBox)component;
                 txt.BorderStyle = BorderStyle.None;
             }
 
 
-            this.TargetControl = component;
-            this.CornerRadius = radius;
+            this.TargetControl_ = component;
+            this.CornerRadius_ = radius;
         }
 
 
@@ -46,7 +42,7 @@ namespace InstamRise_Growth_Bot.Design
         private Control _cntrl;
         private int _CornerRadius = 30;
 
-        public Control TargetControl
+        public Control TargetControl_
         {
             get { return _cntrl; }
             set
@@ -56,7 +52,7 @@ namespace InstamRise_Growth_Bot.Design
             }
         }
 
-        public int CornerRadius
+        public int CornerRadius_
         {
             get { return _CornerRadius; }
             set

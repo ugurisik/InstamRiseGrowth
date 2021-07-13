@@ -46,9 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Design\BorderRadius.cs">
+    <Compile Include="Design\CornerRadius.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Design\DropShadow.cs" />
+    <Compile Include="Design\FormMove.cs" />
     <Compile Include="InstamRise.cs">
       <SubType>Form</SubType>
     </Compile>
