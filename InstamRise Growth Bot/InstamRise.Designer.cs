@@ -34,30 +34,33 @@ namespace InstamRise_Growth_Bot
             this.pnlContainer = new System.Windows.Forms.Panel();
             this.btnHomePage = new System.Windows.Forms.Button();
             this.btnAccountPage = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnListPage = new System.Windows.Forms.Button();
+            this.btnFollowPage = new System.Windows.Forms.Button();
+            this.btnSharePage = new System.Windows.Forms.Button();
+            this.btnDownloadPage = new System.Windows.Forms.Button();
+            this.btnSettings = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lblClose = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pnlLeft.SuspendLayout();
             this.pnlTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlLeft
             // 
             this.pnlLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(27)))), ((int)(((byte)(34)))));
-            this.pnlLeft.Controls.Add(this.button7);
-            this.pnlLeft.Controls.Add(this.button6);
-            this.pnlLeft.Controls.Add(this.button5);
-            this.pnlLeft.Controls.Add(this.button4);
-            this.pnlLeft.Controls.Add(this.button3);
+            this.pnlLeft.Controls.Add(this.pictureBox2);
+            this.pnlLeft.Controls.Add(this.btnSettings);
+            this.pnlLeft.Controls.Add(this.btnDownloadPage);
+            this.pnlLeft.Controls.Add(this.btnSharePage);
+            this.pnlLeft.Controls.Add(this.btnFollowPage);
+            this.pnlLeft.Controls.Add(this.btnListPage);
             this.pnlLeft.Controls.Add(this.btnAccountPage);
             this.pnlLeft.Controls.Add(this.btnHomePage);
             this.pnlLeft.Dock = System.Windows.Forms.DockStyle.Left;
@@ -120,75 +123,80 @@ namespace InstamRise_Growth_Bot
             this.btnAccountPage.UseVisualStyleBackColor = true;
             this.btnAccountPage.Click += new System.EventHandler(this.btnAccountPage_Click);
             // 
-            // button3
+            // btnListPage
             // 
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(246)))), ((int)(((byte)(217)))));
-            this.button3.Location = new System.Drawing.Point(0, 310);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(191, 78);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Liste İşlemleri";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnListPage.FlatAppearance.BorderSize = 0;
+            this.btnListPage.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.btnListPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnListPage.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnListPage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(246)))), ((int)(((byte)(217)))));
+            this.btnListPage.Location = new System.Drawing.Point(0, 310);
+            this.btnListPage.Name = "btnListPage";
+            this.btnListPage.Size = new System.Drawing.Size(191, 78);
+            this.btnListPage.TabIndex = 2;
+            this.btnListPage.Text = "Hedef Kullanıcılar";
+            this.btnListPage.UseVisualStyleBackColor = true;
+            this.btnListPage.Click += new System.EventHandler(this.btnListPage_Click);
             // 
-            // button4
+            // btnFollowPage
             // 
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(246)))), ((int)(((byte)(217)))));
-            this.button4.Location = new System.Drawing.Point(0, 394);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(191, 78);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Takip İşlemleri";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnFollowPage.FlatAppearance.BorderSize = 0;
+            this.btnFollowPage.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.btnFollowPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFollowPage.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnFollowPage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(246)))), ((int)(((byte)(217)))));
+            this.btnFollowPage.Location = new System.Drawing.Point(0, 394);
+            this.btnFollowPage.Name = "btnFollowPage";
+            this.btnFollowPage.Size = new System.Drawing.Size(191, 78);
+            this.btnFollowPage.TabIndex = 3;
+            this.btnFollowPage.Text = "Takip İşlemleri";
+            this.btnFollowPage.UseVisualStyleBackColor = true;
+            this.btnFollowPage.Click += new System.EventHandler(this.btnFollowPage_Click);
             // 
-            // button5
+            // btnSharePage
             // 
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(246)))), ((int)(((byte)(217)))));
-            this.button5.Location = new System.Drawing.Point(0, 478);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(191, 78);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Paylaşım İşlemleri";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnSharePage.FlatAppearance.BorderSize = 0;
+            this.btnSharePage.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.btnSharePage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSharePage.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSharePage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(246)))), ((int)(((byte)(217)))));
+            this.btnSharePage.Location = new System.Drawing.Point(0, 478);
+            this.btnSharePage.Name = "btnSharePage";
+            this.btnSharePage.Size = new System.Drawing.Size(191, 78);
+            this.btnSharePage.TabIndex = 4;
+            this.btnSharePage.Text = "Paylaşım İşlemleri";
+            this.btnSharePage.UseVisualStyleBackColor = true;
+            this.btnSharePage.Click += new System.EventHandler(this.btnSharePage_Click);
             // 
-            // button6
+            // btnDownloadPage
             // 
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(246)))), ((int)(((byte)(217)))));
-            this.button6.Location = new System.Drawing.Point(0, 562);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(191, 78);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "İndirme İşlemleri";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnDownloadPage.FlatAppearance.BorderSize = 0;
+            this.btnDownloadPage.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.btnDownloadPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDownloadPage.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnDownloadPage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(246)))), ((int)(((byte)(217)))));
+            this.btnDownloadPage.Location = new System.Drawing.Point(0, 562);
+            this.btnDownloadPage.Name = "btnDownloadPage";
+            this.btnDownloadPage.Size = new System.Drawing.Size(191, 78);
+            this.btnDownloadPage.TabIndex = 5;
+            this.btnDownloadPage.Text = "İndirme İşlemleri";
+            this.btnDownloadPage.UseVisualStyleBackColor = true;
+            this.btnDownloadPage.Click += new System.EventHandler(this.btnDownloadPage_Click);
             // 
-            // button7
+            // btnSettings
             // 
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(246)))), ((int)(((byte)(217)))));
-            this.button7.Location = new System.Drawing.Point(0, 646);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(191, 78);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "Ayarlar";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnSettings.FlatAppearance.BorderSize = 0;
+            this.btnSettings.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSettings.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSettings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(246)))), ((int)(((byte)(217)))));
+            this.btnSettings.Location = new System.Drawing.Point(0, 646);
+            this.btnSettings.Name = "btnSettings";
+            this.btnSettings.Size = new System.Drawing.Size(191, 78);
+            this.btnSettings.TabIndex = 6;
+            this.btnSettings.Text = "Ayarlar";
+            this.btnSettings.UseVisualStyleBackColor = true;
+            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
             // 
             // label1
             // 
@@ -263,6 +271,15 @@ namespace InstamRise_Growth_Bot
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::InstamRise_Growth_Bot.Properties.Resources.r10;
+            this.pictureBox2.Location = new System.Drawing.Point(45, 15);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox2.TabIndex = 7;
+            this.pictureBox2.TabStop = false;
+            // 
             // InstamRise
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -273,12 +290,13 @@ namespace InstamRise_Growth_Bot
             this.Controls.Add(this.pnlLeft);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "InstamRise";
-            this.Text = "Form1";
+            this.Text = "InstamRise";
             this.Load += new System.EventHandler(this.InstamRise_Load);
             this.pnlLeft.ResumeLayout(false);
             this.pnlTop.ResumeLayout(false);
             this.pnlTop.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -288,11 +306,10 @@ namespace InstamRise_Growth_Bot
         private System.Windows.Forms.Panel pnlLeft;
         private System.Windows.Forms.Panel pnlTop;
         private System.Windows.Forms.Panel pnlContainer;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnDownloadPage;
+        private System.Windows.Forms.Button btnSharePage;
+        private System.Windows.Forms.Button btnFollowPage;
+        private System.Windows.Forms.Button btnListPage;
         private System.Windows.Forms.Button btnAccountPage;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -301,6 +318,8 @@ namespace InstamRise_Growth_Bot
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lblClose;
         private System.Windows.Forms.Button btnHomePage;
+        private System.Windows.Forms.Button btnSettings;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 

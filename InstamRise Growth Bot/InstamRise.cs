@@ -45,5 +45,35 @@ namespace InstamRise_Growth_Bot
             AccountPage accountPage = new AccountPage();
             new ChangeContainer(accountPage, pnlContainer);
         }
+
+        private void btnSettings_Click(object sender, EventArgs e)
+        {
+            SettingsPage settingsPage = new SettingsPage();
+            new ChangeContainer(settingsPage, pnlContainer);
+        }
+
+        private void btnFollowPage_Click(object sender, EventArgs e)
+        {
+            FollowPage followPage = new FollowPage();
+            new ChangeContainer(followPage, pnlContainer);
+        }
+
+        private void btnListPage_Click(object sender, EventArgs e)
+        {
+            ListPage listPage = new ListPage();
+            new ChangeContainer(listPage, pnlContainer);
+        }
+
+        private void btnSharePage_Click(object sender, EventArgs e)
+        {
+            MediaSharePage mediaSharePage = new MediaSharePage();
+            new ChangeContainer(mediaSharePage, pnlContainer);
+        }
+
+        private void btnDownloadPage_Click(object sender, EventArgs e)
+        {
+            DownloadPage downloadPage = new DownloadPage();
+            new ChangeContainer(downloadPage, pnlContainer);
+        }
     }
 }

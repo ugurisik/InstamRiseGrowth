@@ -73,6 +73,16 @@ namespace InstamRise_Growth_Bot.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap r10 {
+            get {
+                object obj = ResourceManager.GetObject("r10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap UI_BG {
             get {
                 object obj = ResourceManager.GetObject("UI BG", resourceCulture);

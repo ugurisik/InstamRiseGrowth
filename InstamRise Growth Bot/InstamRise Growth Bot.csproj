@@ -33,6 +33,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
@@ -65,11 +74,41 @@
     <Compile Include="UserInterfaces\AccountPage.Designer.cs">
       <DependentUpon>AccountPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserInterfaces\DownloadPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\DownloadPage.Designer.cs">
+      <DependentUpon>DownloadPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\FollowPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\FollowPage.Designer.cs">
+      <DependentUpon>FollowPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserInterfaces\HomePage.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserInterfaces\HomePage.Designer.cs">
       <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\ListPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\ListPage.Designer.cs">
+      <DependentUpon>ListPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\MediaSharePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\MediaSharePage.Designer.cs">
+      <DependentUpon>MediaSharePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterfaces\SettingsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterfaces\SettingsPage.Designer.cs">
+      <DependentUpon>SettingsPage.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="InstamRise.resx">
       <DependentUpon>InstamRise.cs</DependentUpon>
@@ -87,9 +126,25 @@
     <EmbeddedResource Include="UserInterfaces\AccountPage.resx">
       <DependentUpon>AccountPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\DownloadPage.resx">
+      <DependentUpon>DownloadPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\FollowPage.resx">
+      <DependentUpon>FollowPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserInterfaces\HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\ListPage.resx">
+      <DependentUpon>ListPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\MediaSharePage.resx">
+      <DependentUpon>MediaSharePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterfaces\SettingsPage.resx">
+      <DependentUpon>SettingsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -111,6 +166,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\UI BG1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r10.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

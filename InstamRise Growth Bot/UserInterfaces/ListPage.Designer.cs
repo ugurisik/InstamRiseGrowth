@@ -1,7 +1,7 @@
 ﻿
 namespace InstamRise_Growth_Bot.UserInterfaces
 {
-    partial class AccountPage
+    partial class ListPage
     {
         /// <summary> 
         ///Gerekli tasarımcı değişkeni.
@@ -43,13 +43,13 @@ namespace InstamRise_Growth_Bot.UserInterfaces
             this.pictureBox4.TabIndex = 5;
             this.pictureBox4.TabStop = false;
             // 
-            // AccountPage
+            // ListPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
             this.Controls.Add(this.pictureBox4);
-            this.Name = "AccountPage";
+            this.Name = "ListPage";
             this.Size = new System.Drawing.Size(1174, 676);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
