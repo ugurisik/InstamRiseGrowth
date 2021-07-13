@@ -28,10 +28,14 @@ namespace InstamRise_Growth_Bot.Design
                 Button btn = (Button)component;
                 btn.FlatStyle = FlatStyle.Flat;
                 btn.FlatAppearance.BorderSize = 0;
-                //btn.FlatAppearance.BorderColor = System.Drawing.Color.White;
-
+                btn.FlatAppearance.BorderColor = System.Drawing.Color.White;
             }
-          
+            else if (component.GetType().Name =="TextBox" )
+            {
+                TextBox txt = (TextBox)component;
+                txt.BorderStyle = BorderStyle.None;
+            }
+
 
             this.TargetControl = component;
             this.CornerRadius = radius;
