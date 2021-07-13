@@ -1,7 +1,7 @@
 ﻿
 namespace InstamRise_Growth_Bot
 {
-    partial class Form1
+    partial class InstamRise
     {
         /// <summary>
         ///Gerekli tasarımcı değişkeni.

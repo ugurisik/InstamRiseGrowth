@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace InstamRise_Growth_Bot
 {
-    public partial class Form1 : Form
+    public partial class InstamRise : Form
     {
-        public Form1()
+        public InstamRise()
         {
             InitializeComponent();
         }
