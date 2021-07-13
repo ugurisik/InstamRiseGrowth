@@ -1,0 +1,9 @@
+C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\bin\Debug\InstamRise Growth Bot.exe.config
+C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\bin\Debug\InstamRise Growth Bot.exe
+C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\bin\Debug\InstamRise Growth Bot.pdb
+C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\obj\Debug\InstamRise Growth Bot.csprojAssemblyReference.cache
+C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\obj\Debug\InstamRise_Growth_Bot.Properties.Resources.resources
+C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\obj\Debug\InstamRise Growth Bot.csproj.GenerateResource.cache
+C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\obj\Debug\InstamRise Growth Bot.csproj.CoreCompileInputs.cache
+C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\obj\Debug\InstamRise Growth Bot.exe
+C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\obj\Debug\InstamRise Growth Bot.pdb
