@@ -15,8 +15,9 @@ namespace InstamRise_Growth_Bot
         public InstamRise()
         {
             InitializeComponent();
-            BorderRadius borderRadius = new BorderRadius(textBox1,15);
+            BorderRadius borderRadius = new BorderRadius(textBox1,10);
             borderRadius = new BorderRadius(this,30);
+            borderRadius = new BorderRadius(button1, 15);
         }
 
         private void InstamRise_Load(object sender, EventArgs e)
