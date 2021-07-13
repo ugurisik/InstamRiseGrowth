@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace InstamRise_Growth_Bot.Design
 {
-    public class ShadowForm : Form
+    public class ShadowForm
     {
         const int CS_DropSHADOW = 0x20000;
         const int GCL_STYLE = (-26);

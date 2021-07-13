@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace InstamRise_Growth_Bot.Design
 {
-    class CornerRadius: Component 
+    class CornerRadius 
     {
         [System.Runtime.InteropServices.DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         public static extern IntPtr CreateRoundRectRgn
