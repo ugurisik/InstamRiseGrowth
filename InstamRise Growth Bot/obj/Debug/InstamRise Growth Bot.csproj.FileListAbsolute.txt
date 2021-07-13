@@ -8,3 +8,5 @@ C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\obj\Debug\
 C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\obj\Debug\InstamRise Growth Bot.exe
 C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\obj\Debug\InstamRise Growth Bot.pdb
 C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\obj\Debug\InstamRise_Growth_Bot.InstamRise.resources
+C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\obj\Debug\InstamRise_Growth_Bot.UserInterfaces.HomePage.resources
+C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\obj\Debug\InstamRise_Growth_Bot.UserInterfaces.AccountPage.resources
