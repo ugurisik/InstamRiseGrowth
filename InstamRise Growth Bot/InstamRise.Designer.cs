@@ -47,8 +47,10 @@ namespace InstamRise_Growth_Bot
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "InstamRise";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.InstamRise_Load);
             this.ResumeLayout(false);
 
         }

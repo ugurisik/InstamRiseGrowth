@@ -23,6 +23,16 @@ namespace InstamRise_Growth_Bot.Design
               );
         public BorderRadius(Control component, int radius)
         {
+            if (component.GetType().Name == "Button")
+            {
+                Button btn = (Button)component;
+                btn.FlatStyle = FlatStyle.Flat;
+                btn.FlatAppearance.BorderSize = 0;
+                // btn.FlatAppearance.BorderColor = System.Drawing.Color.White;
+
+            }
+          
+
             this.TargetControl = component;
             this.CornerRadius = radius;
         }
