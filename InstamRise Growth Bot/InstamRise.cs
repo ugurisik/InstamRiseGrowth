@@ -15,13 +15,11 @@ namespace InstamRise_Growth_Bot
         public InstamRise()
         {
             InitializeComponent();
-            CornerRadius borderRadius = new CornerRadius(this, 30);
-            FormMove formMove = new FormMove(this);
-            formMove.Down();
-            formMove.Move();
-            formMove.Up();
+            new CornerRadius(this, 30);
+            new FormMove(button1, this);
+            new ShadowForm().ApplyShadows(this);
         }
-      
+     
         private void InstamRise_Load(object sender, EventArgs e)
         {
 

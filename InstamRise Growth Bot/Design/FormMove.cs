@@ -14,33 +14,26 @@ namespace InstamRise_Growth_Bot.Design
         private Point dragCursorPoint;
         private Point dragFormPoint;
         public Control Component { get; set; }
-        public FormMove(Control component) {
+        public FormMove(Control component,Control form) {
             this.Component = component;
-        }
-        public void Move() {
             Component.MouseMove += (sender, eventArgs) =>
             {
                 if (dragging)
                 {
                     Point dif = Point.Subtract(Cursor.Position, new Size(dragCursorPoint));
-                    Component.Location = Point.Add(dragFormPoint, new Size(dif));
+                    form.Location = Point.Add(dragFormPoint, new Size(dif));
                 }
             };
-        }
-        public void Down()
-        {
             Component.MouseDown += (sender, eventArgs) => {
                 dragging = true;
                 dragCursorPoint = Cursor.Position;
-                dragFormPoint = Component.Location;
+                dragFormPoint = form.Location;
             };
-        }
-        public void Up() {
             Component.MouseUp += (sender, eventArgs) =>
             {
                 dragging = false;
             };
         }
-
+    
     }
 }
