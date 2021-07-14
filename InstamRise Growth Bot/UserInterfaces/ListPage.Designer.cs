@@ -142,7 +142,6 @@ namespace InstamRise_Growth_Bot.UserInterfaces
             this.metroTextBox2.MaxLength = 32767;
             this.metroTextBox2.Name = "metroTextBox2";
             this.metroTextBox2.PasswordChar = '\0';
-            this.metroTextBox2.PromptText = "Liste adı giriniz...";
             this.metroTextBox2.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.metroTextBox2.SelectedText = "";
             this.metroTextBox2.SelectionLength = 0;

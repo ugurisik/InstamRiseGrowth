@@ -19,3 +19,8 @@ C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\bin\Debug\
 C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\bin\Debug\MetroFramework.dll
 C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\obj\Debug\InstamRise Growth Bot.csproj.CopyComplete
+C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\bin\Debug\InstagramApiSharp.dll
+C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\bin\Debug\Newtonsoft.Json.xml
