@@ -3,6 +3,7 @@ using InstamRise_Growth_Bot.UserInterfaces;
 using System;
 using System.Windows.Forms;
 using InstagramApiDataProcess.DataProcess;
+using InstagramApiDataProcess.Models;
 
 namespace InstamRise_Growth_Bot
 {
@@ -18,9 +19,14 @@ namespace InstamRise_Growth_Bot
             new ShadowForm().ApplyShadows(this);
             
         }
-     
-        private void InstamRise_Load(object sender, EventArgs e)
+
+        private async void InstamRise_Load(object sender, EventArgs e)
         {
+            //InstaProfile i = await ProfileDataProcess.ProfileInfo(firstApi, "ali");  
+            //if(i.ExceptionStatus == null)
+            //{
+                
+            //}
         }
 
         private void btnHomePage_Click(object sender, EventArgs e)
