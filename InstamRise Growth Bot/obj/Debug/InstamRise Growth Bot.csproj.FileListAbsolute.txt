@@ -21,3 +21,4 @@ C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\bin\Debug\
 C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\bin\Debug\Newtonsoft.Json.dll
 C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\bin\Debug\BouncyCastle.Crypto.xml
 C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\bin\Debug\Guna.UI2.dll
