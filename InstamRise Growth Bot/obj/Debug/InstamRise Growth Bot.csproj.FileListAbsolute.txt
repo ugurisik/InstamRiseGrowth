@@ -15,9 +15,6 @@ C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\obj\Debug\
 C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\obj\Debug\InstamRise_Growth_Bot.UserInterfaces.ListPage.resources
 C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\obj\Debug\InstamRise_Growth_Bot.UserInterfaces.MediaSharePage.resources
 C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\obj\Debug\InstamRise_Growth_Bot.UserInterfaces.SettingsPage.resources
-C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\bin\Debug\MetroFramework.Design.dll
-C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\bin\Debug\MetroFramework.dll
-C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\obj\Debug\InstamRise Growth Bot.csproj.CopyComplete
 C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\UGR\source\repos\InstamRise Growth Bot\InstamRise Growth Bot\bin\Debug\InstagramApiSharp.dll

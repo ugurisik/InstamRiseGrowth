@@ -16,7 +16,7 @@ namespace InstamRise_Growth_Bot.UserInterfaces
         public FollowPage()
         {
             InitializeComponent();
-            new CornerRadius(metroTabControl1, 30);
+
         }
     }
 }
