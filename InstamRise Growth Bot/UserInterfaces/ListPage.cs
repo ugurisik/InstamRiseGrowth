@@ -15,6 +15,7 @@ namespace InstamRise_Growth_Bot.UserInterfaces
         public ListPage()
         {
             InitializeComponent();
+           
         }
     }
 }

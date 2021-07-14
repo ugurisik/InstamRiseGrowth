@@ -46,6 +46,7 @@ namespace InstamRise_Growth_Bot
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.pnlLeft.SuspendLayout();
             this.pnlTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -55,6 +56,7 @@ namespace InstamRise_Growth_Bot
             // pnlLeft
             // 
             this.pnlLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(27)))), ((int)(((byte)(34)))));
+            this.pnlLeft.Controls.Add(this.label4);
             this.pnlLeft.Controls.Add(this.pictureBox2);
             this.pnlLeft.Controls.Add(this.btnSettings);
             this.pnlLeft.Controls.Add(this.btnDownloadPage);
@@ -274,11 +276,25 @@ namespace InstamRise_Growth_Bot
             // pictureBox2
             // 
             this.pictureBox2.Image = global::InstamRise_Growth_Bot.Properties.Resources.r10;
-            this.pictureBox2.Location = new System.Drawing.Point(45, 15);
+            this.pictureBox2.Location = new System.Drawing.Point(60, 15);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox2.Size = new System.Drawing.Size(70, 70);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
+            // 
+            // label4
+            // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Bahnschrift SemiLight", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(246)))), ((int)(((byte)(217)))));
+            this.label4.Location = new System.Drawing.Point(60, 104);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(69, 16);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "burclopedi";
             // 
             // InstamRise
             // 
@@ -290,9 +306,11 @@ namespace InstamRise_Growth_Bot
             this.Controls.Add(this.pnlLeft);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "InstamRise";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "InstamRise";
             this.Load += new System.EventHandler(this.InstamRise_Load);
             this.pnlLeft.ResumeLayout(false);
+            this.pnlLeft.PerformLayout();
             this.pnlTop.ResumeLayout(false);
             this.pnlTop.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -320,6 +338,7 @@ namespace InstamRise_Growth_Bot
         private System.Windows.Forms.Button btnHomePage;
         private System.Windows.Forms.Button btnSettings;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label4;
     }
 }
 
