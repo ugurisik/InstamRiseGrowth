@@ -211,5 +211,11 @@
   <ItemGroup>
     <None Include="Resources\r10.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InstagramApiDataProcess\InstagramApiDataProcess.csproj">
+      <Project>{5d18c371-42d8-480c-89c9-a964a08fb396}</Project>
+      <Name>InstagramApiDataProcess</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

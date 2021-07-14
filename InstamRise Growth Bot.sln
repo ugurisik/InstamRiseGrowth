@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstamRise Growth Bot", "InstamRise Growth Bot\InstamRise Growth Bot.csproj", "{152FCF7C-0F2A-48A7-B582-D69FF277AC45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstagramApiDataProcess", "InstagramApiDataProcess\InstagramApiDataProcess.csproj", "{5D18C371-42D8-480C-89C9-A964A08FB396}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{152FCF7C-0F2A-48A7-B582-D69FF277AC45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{152FCF7C-0F2A-48A7-B582-D69FF277AC45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{152FCF7C-0F2A-48A7-B582-D69FF277AC45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D18C371-42D8-480C-89C9-A964A08FB396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D18C371-42D8-480C-89C9-A964A08FB396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D18C371-42D8-480C-89C9-A964A08FB396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D18C371-42D8-480C-89C9-A964A08FB396}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
